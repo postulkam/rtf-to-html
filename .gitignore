@@ -1,3 +1,9 @@
 node_modules
 *~
 .#*
+/html-converted/
+/html-converted/*
+/mid-rtf-converted/
+/mid-rtf-converted/*
+/rtf-to-convert/
+/rtf-to-convert/*

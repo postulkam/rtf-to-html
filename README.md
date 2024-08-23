@@ -133,3 +133,12 @@ other interfaces, this one is synchronous.
 
 * doc - A parsed RTF document as produced by the `rtf-parser` library.
 * opts - Optional options, see the section on [Options](#options) for details.
+
+# Custom functionality
+
+Before everything, run `npm install' for installing the dependencies.
+
+Add all `rtf` files to the `rtf-to-convert` folder.
+
+Run `node convert.js` for converting all `rtf` files to `html` files. They will be saved in the `html-converted` folder.
+This script will remove `fcharset238 Calibri` from the `rtf` file and will use only `fcharset0` for the font.
